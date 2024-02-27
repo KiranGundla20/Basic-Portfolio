@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(215, 46, 46);
+    background-image: url("./images/wall.jpg");
+}
+header{
+    color: whitesmoke;
+    float: right;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
+}
+.resume{
+    visibility: hidden
+
+}
+header:hover .resume{
+    visibility: visible;
+}
+@keyframes example {
+    0%   { top:0px;}
+    50%  { top:100px;}
+    100% { top:0px;}
+} 
+.name{
+    width: 70%;
+    color: rgb(115, 21, 63);
+    padding: 10px;
+    margin: auto;
+}
+.img-in{
+    width: 30%;
+    padding: 20px;
+}
+.img-section{
+    display: flex;
+}
+.img{
+    border-radius: 20px;
+    z-index: 10000;
+    box-shadow: 5px 5px 5px rgba(117, 114, 114, 0.922);
+}
+.head-span,li{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(115, 21, 63);
+}
+.about{
+    color: rgb(0, 0, 0);
+}
+.skills{
+    display: flex;
+}
+.skill-cards{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(117, 114, 114, 0.922);
+    z-index: 1000;
+    margin: 5px;
+}
+.skill-cards:hover  {
+   background-color: rgb(115, 21, 63);
+}
+.project1, .project2{
+    width: 40%;
+    margin: 10px;
+    padding: 15px;
+    color: black;
+    background-color: #fab8c494;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(117, 114, 114, 0.922);
+    z-index: 1000;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.project{
+    display: flex;
+}
+h3{
+    margin: 0;
+    border-bottom: 1px solid;
+}
+h4{
+    margin: 0;
+}
+.footer{
+    background-color: #2c041c77;
+    display: flex;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.copyright{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.contact{
+    width: 40%;
+}
+.contact-cards{
+    width: fit-content;
+    padding: 0px;
+}
+.contact-span{
+    margin: auto;
+    margin-left: 10px;
+} 
+.parent-c-card{
+    display: flex;
+    color: white;
+}
